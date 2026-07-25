@@ -278,5 +278,5 @@ docs/
 > This project was made out of love. Keep it that way.
 
 ---
-
+对你有帮助的话，加个星星就好ദ്ദി（• ˕ •マ.ᐟ
 <p align="center"><sub>制作思路开源 · V & K</sub></p>
