@@ -1,6 +1,6 @@
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.android") version "1.9.22"
 }
 
 android {
@@ -35,10 +35,4 @@ android {
 dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
-    // Supabase
-    implementation(platform("io.github.jan-tennert.supabase:bom:2.6.0"))
-    implementation("io.github.jan-tennert.supabase:postgrest-kt")
-    implementation("io.github.jan-tennert.supabase:realtime-kt")
-    // Ktor client engine
-    implementation("io.ktor:ktor-client-okhttp:2.3.7")
 }
